@@ -12,4 +12,4 @@ node server.js
 A sample screenshot of this application is below:
 ![todoScreenshoot.png](todoScreenshoot.png)
 
-Can be viewed live at
+Can be viewed live at https://todolist-nodeangular.herokuapp.com/
