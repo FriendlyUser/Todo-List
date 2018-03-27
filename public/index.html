@@ -44,13 +44,6 @@
 		  transition: background 0.3s;
 		  box-sizing:border-box;
 		}
-		.bg {
-		  position: fixed;
-		  width: 100%;
-		  top:0;
-		  left:0;
-		  z-index: -1;
-		}
 		.jumbotron {
 		  color: black;
 		  text-shadow: #444 0 1px 1px;
@@ -72,7 +65,8 @@
 
 		<!-- HEADER AND TODO COUNT -->
 		<div class="jumbotron text-center">
-			<h1>My current tasks.<span class="label label-info">{{ todos.length }}</span></h1>
+			<h1>My current tasks<span class="label label-info">{{ todos.length }}</span></h1>
+			<p>Any new task added will be saved to a remote database.</p>
 		</div>
 		<!-- TODO LIST -->
 		<div id="todo-list" class="row">
@@ -120,7 +114,7 @@
 					<!--First column-->
 					<div class="col-md-6">
 						<h5 class="text-uppercase">About</h5>
-						<p>Simple Node.js App created by Me that uses Angular.</p>
+						<p>Simple Node.js App that uses Angular and MongoDB.</p>
 					</div>
 					<!--/.First column-->
 
